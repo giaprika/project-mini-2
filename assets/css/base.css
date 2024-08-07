@@ -1,0 +1,79 @@
+:root {
+    --color-one: #8261EE;
+    --color-two: #FF589E;
+    --color-text: #777777;
+}
+
+body {
+    color: var(--color-text);
+}
+
+::selection {
+    background-color: var(--color-two);
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767.98px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.button {
+    padding: 10px 30px;
+    border-radius: 80px;
+    color: white;
+    transition: all 0.6s ease;
+}
+
+.button-one {
+    background-color: var(--color-two);
+}
+
+.button-one:hover {
+    background-color: var(--color-one);
+    color: white;
+}
+
+.button-two {
+    background-color: var(--color-one);
+}
+
+.button-two:hover {
+    background-color: var(--color-two);
+    color: white;
+}
+
+p {
+    margin-bottom: 0;
+}
+
